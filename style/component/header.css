@@ -1,0 +1,66 @@
+header {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 105px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav .logoArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav .logoArea .tagLine {
+  font-weight: 300;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-stretch: 100;
+}
+
+.nav .actionBtn {
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box;
+  color: #313149;
+  padding: 20px 70px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 16px;
+  border-radius: 10px;
+  width: fit-content;
+  height: 48px;
+}
+
+.nav .actionBtn span {
+  font-weight: 700;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -0.0218em;
+  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}

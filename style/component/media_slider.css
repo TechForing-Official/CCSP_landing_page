@@ -1,0 +1,37 @@
+.mediaSlide {
+  height: 121px;
+  overflow: hidden;
+}
+
+.mediaSlide .container {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.mediaSlide .title {
+  position: relative;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #212529;
+  width: 183px;
+}
+
+.mediaSlide .title::after {
+  right: -21px;
+  content: url(../../img/media/Line.png);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mediaSlide .owl-carousel {
+  width: 887px;
+}
+
+.mediaSlide .owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}

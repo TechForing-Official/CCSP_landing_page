@@ -6,10 +6,105 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CCSP Home</title>
+  <!-- owl carousel -->
+  <!-- CSS file -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="../style/index.css">
+  <link rel="stylesheet" href="../style/component/hero.css">
+  <link rel="stylesheet" href="../style/component/header.css">
+  <link rel="stylesheet" href="../style/component/media_slider.css">
+  <link rel="stylesheet" href="../style/component/certification.css">
+  <link rel="stylesheet" href="../style/component/duration.css">
+  <link rel="stylesheet" href="../style/component/instructorsSlider.css">
 </head>
 
 <body>
+  <div id="header"></div>
+  <div id="hero"></div>
+  <div id="media_slider"></div>
+  <div id="certification"></div>
+  <div id="duration"></div>
+  <div id="instructorsSlider"></div>
+  <script>
+    function includeHTML(url, elementId) {
+      fetch(url)
+        .then(response => response.text())
+        .then(data => {
+          const element = document.getElementById(elementId);
+          element.innerHTML = data;
+        })
+        .catch(error => console.log(error));
+    }
 
+    // Include file1.html
+    includeHTML('../component/hero.html', 'hero');
+    includeHTML('../component/header.html', 'header');
+    includeHTML('../component/media_slider.html', 'media_slider');
+    includeHTML('../component/certification.html', 'certification');
+    includeHTML('../component/duration.html', 'duration');
+    includeHTML('../component/instructorsSlider.html', 'instructorsSlider');
+  </script>
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- Owl Carousel2 JavaScript file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        items: 5,
+        loop: true,
+        margin: 30,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: false,
+        navText: false,
+        // responsive: {
+        //   0: {
+        //     items: 2,
+        //     nav: true
+        //   },
+        //   600: {
+        //     items: 3,
+        //     nav: false
+        //   },
+        //   1000: {
+        //     items: 5,
+        //     nav: true,
+        //     loop: false
+        //   }
+        // }
+      });
+    });
+    $(document).ready(function () {
+      $('.instructor_slider').owlCarousel({
+        items: 1,
+        loop: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: false,
+        navText: true,
+        // responsive: {
+        //   0: {
+        //     items: 2,
+        //     nav: true
+        //   },
+        //   600: {
+        //     items: 3,
+        //     nav: false
+        //   },
+        //   1000: {
+        //     items: 5,
+        //     nav: true,
+        //     loop: false
+        //   }
+        // }
+      });
+    });
+  </script>
 </body>
 
 </html>

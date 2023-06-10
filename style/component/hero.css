@@ -1,0 +1,183 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(90deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotateR {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-90deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.hero {
+  min-height: 806px;
+  /* bg with gradient */
+  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
+  /* bg with image */
+  background: url(../../img/heroBg1.png) no-repeat center center/cover;
+  overflow: hidden;
+}
+
+.hero .container {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 46px;
+}
+
+.hero .content h6 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FAFAFA;
+}
+
+.hero .content h2 {
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+  color: #FAFAFA;
+}
+
+.hero .content li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero .content li span {
+  font-weight: 300;
+  font-size: 16px;
+  color: #FAFAFA;
+  font-stretch: 100;
+}
+
+.hero .c_title {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+}
+
+.hero .c_title span {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.0218em;
+  color: #FAFAFA;
+  margin-left: 16px;
+}
+
+.hero .timeArea {
+  position: relative;
+  width: 346px;
+  min-height: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .t_container {
+  z-index: 1;
+}
+
+.hero .timeArea .tbg {
+  position: absolute;
+  opacity: 0.3;
+}
+
+.hero .timeArea .tbg1 {
+  position: absolute;
+  top: -12px;
+  left: 36px;
+  animation: rotate 8s linear infinite;
+}
+
+.hero .timeArea .tbg2 {
+  position: absolute;
+  top: 40px;
+  left: 58px;
+  animation: rotateR 8s linear infinite;
+}
+
+.hero .timeArea .tbg3 {
+  position: absolute;
+  top: 69px;
+  left: 128px;
+  animation: rotate 8s linear infinite;
+}
+
+.hero .timer {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  width: fit-content;
+  margin: 10px auto 25px auto;
+}
+
+.hero .timer .num {
+  padding: 10px 15px;
+  gap: 10px;
+  width: 57px;
+  height: 56px;
+  background: #FAFAFA;
+  border-radius: 5px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.hero .timer .num span {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.0218em;
+  background: linear-gradient(180deg, #182F59 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.hero .timer .countdown {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hero .timer .countdown small {
+  color: #ffff;
+  font-size: 31px;
+}
+
+.hero .timeArea .t_tag {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FAFAFA;
+}
