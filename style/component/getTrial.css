@@ -1,6 +1,7 @@
 .getTrial {
   width: 100%;
   min-height: 648px;
+  overflow: hidden;
 }
 
 .getTrial .title {

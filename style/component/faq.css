@@ -1,0 +1,100 @@
+.faq .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq .faq_lists {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  margin-top: 64px;
+  max-width: 550px;
+  width: calc(50% - 20px);
+}
+
+.faq .list {
+  background: #FAFAFA;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  /* height: 91px;
+  overflow: hidden; */
+
+  transition: height, overflow 0.3s ease-in-out;
+}
+
+.faq .list p {
+  display: none;
+}
+
+.faq .ques {
+  min-height: 88px;
+}
+
+.faq .ques h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding: 10px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.faq .ques .svg {
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.faq .ques {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 91px;
+  gap: 10px;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box;
+  border-radius: 18px;
+  border: 2px solid transparent;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.faq .list p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+  padding: 16px 20px;
+}
+
+.faq .list .svg svg path {
+  transition: all 0.3s ease-in-out;
+}
+
+/* active css */
+.faq .list.active {
+  height: fit-content;
+  overflow: visible;
+}
+
+.faq .list.active .svg svg path {
+  fill: #FAFAFA;
+}
+
+.faq .list.active .svg {
+  transform: rotate(180deg);
+}
+
+.faq .list.active .ques h3 {
+  color: #FAFAFA;
+}
+
+.faq .list.active .ques {
+  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
+  border: none;
+}
