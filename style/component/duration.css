@@ -45,6 +45,10 @@
   margin: auto 0 128px 0;
 }
 
+.duration .content_two .title {
+  text-align: end;
+}
+
 .duration .content {
   display: flex;
   flex-direction: column;
@@ -52,13 +56,8 @@
 }
 
 
-.duration .content h3 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 57px;
-  letter-spacing: -0.0144em;
-  color: #000000;
+.duration .title {
+  text-align: start;
 }
 
 .duration .content span {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
 
 /* universal css */
 * {
@@ -16,7 +16,7 @@ a {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   background-color: #DFDFDF;
   font-style: normal;
 }
@@ -28,4 +28,19 @@ button {
 .container {
   width: 1120px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: 'Roboto Slab';
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: -0.0144em;
+  color: #000000;
+}
+
+.py-96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }

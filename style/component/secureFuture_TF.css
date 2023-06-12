@@ -1,0 +1,171 @@
+@keyframes rotate360 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.secureFuture_TF .contentArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 520px
+}
+
+.secureFuture_TF .content {
+  position: relative;
+  color: #000000;
+  width: calc(100% - (50% + 91px));
+}
+
+.secureFuture_TF .content .contentBG {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secureFuture_TF .content h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: -0.0144em;
+  margin-bottom: 21px;
+}
+
+.secureFuture_TF .content p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.secureFuture_TF .covered {
+  width: 50%;
+  position: relative;
+  height: 100%;
+}
+
+.secureFuture_TF .covered .cBG {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  animation: rotate360 25s linear infinite;
+}
+
+.secureFuture_TF .covered .counter {
+  width: fit-content;
+}
+
+.secureFuture_TF .covered .count {
+  font-family: 'Big Shoulders Display';
+  font-weight: 600;
+  font-size: 62px;
+  letter-spacing: -0.0144em;
+  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 13px;
+}
+
+.secureFuture_TF .covered .counter {
+  position: absolute;
+}
+
+.secureFuture_TF .covered .counter:nth-child(1) {
+  top: 0%;
+  right: 14%;
+}
+
+.secureFuture_TF .covered .counter:nth-child(2) {
+  top: 16%;
+  left: 0%;
+}
+
+.secureFuture_TF .covered .counter:nth-child(3) {
+  top: 40%;
+  left: 35%;
+}
+
+.secureFuture_TF .covered .counter:nth-child(4) {
+  top: 50%;
+  right: 0%;
+}
+
+.secureFuture_TF .covered .counter:nth-child(5) {
+  bottom: 10%;
+  left: 0%;
+}
+
+.secureFuture_TF .covered .counter:nth-child(6) {
+  bottom: 0%;
+  right: 25%;
+}
+
+.secureFuture_TF .covered .counter p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+
+}
+
+.secureFuture_TF .covered .type {
+  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.secureFuture_TF .cta {
+  width: 100%;
+  height: 138px;
+  background: url(../../img/ctaBG.png) no-repeat center center / cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 76px;
+}
+
+.secureFuture_TF .cta .content {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secureFuture_TF .cta .content p {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: justify;
+  color: #FAFAFA;
+}
+
+.secureFuture_TF .cta .content button {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0218em;
+  color: #182F59;
+  border-radius: 8px;
+  padding: 13px 48px;
+  transition: all 0.2s ease-in-out;
+  border: none;
+}
+
+.secureFuture_TF .cta .content button:hover {
+  box-shadow: 0px 0px 30px #5FD2FB;
+}

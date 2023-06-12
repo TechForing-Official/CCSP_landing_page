@@ -1,0 +1,75 @@
+.getTrial {
+  width: 100%;
+  min-height: 648px;
+}
+
+.getTrial .title {
+  font-family: 'Roboto Slab';
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: -0.0144em;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.getTrial .subTitle {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.getTrial .points {
+  position: relative;
+  padding: 80px 0;
+}
+
+.getTrial .points .p_bg1 {
+  position: absolute;
+  top: 0;
+  left: -34%;
+  z-index: -1;
+}
+
+.getTrial .points .p_bg2 {
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  z-index: -2;
+}
+
+.getTrial .points .p_bg3 {
+  position: absolute;
+  top: 17%;
+  right: -23%;
+  transform: rotate(90deg);
+  z-index: -3;
+}
+
+.getTrial .points li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #FAFAFA;
+  border-radius: 2rem;
+  padding: 0 0 0 10px;
+  margin-bottom: 33px;
+  width: 550px;
+}
+
+.getTrial .points li p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #212529;
+  background: #FAFAFA;
+  padding: 10px 0 10px 30px;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

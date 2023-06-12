@@ -4,13 +4,8 @@
 
 .certification .title {
   position: relative;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 57px;
   width: fit-content;
   margin: auto;
-  letter-spacing: -0.0144em;
-  color: #212529;
 }
 
 .certification .title::after {
