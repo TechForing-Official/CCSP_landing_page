@@ -1,32 +1,27 @@
 .instructorsSlider {
-  padding: 100px 0;
+  min-height: 832px;
+  color: #FAFAFA;
+}
+
+.instructorsSlider .title {
+  color: #FAFAFA;
+  padding-top: 35px;
+}
+
+.instructorsSlider .owl-carousel2 {
+  width: 100%;
 }
 
 .instructorsSlider .container {
   position: relative;
 }
 
-.instructorsSlider .container .bg1 {
+.instructorsSlider .container .bg {
   position: absolute;
   top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 763px;
-  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
-  border-radius: 38px;
-  z-index: -2;
-}
-
-.instructorsSlider .container .bg2 {
-  position: absolute;
-  top: -70px;
-  left: 50px;
+  left: 50%;
   z-index: -1;
-}
-
-.instructorsSlider .instructor_slider {
-  width: 1058px;
-  height: 643.5px;
+  transform: translate(-50%, 0);
 }
 
 .instructor_slider .title {
@@ -49,4 +44,149 @@
 
 .instructor_slider .right {
   width: 587px;
+}
+
+#instructors-carousel .right h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: -0.0218em;
+  color: #FAFAFA;
+  margin: 4px 0;
+}
+
+#instructors-carousel .c_name {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FAFAFA;
+  margin: 7px 0;
+  padding: 4px 10px;
+}
+
+#instructors-carousel .c_time span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: -0.0218em;
+  text-align: center;
+  color: #212529;
+  padding: 5px 10px;
+  width: 180px;
+  height: 46px;
+  background: #FAFAFA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#instructors-carousel .c_time {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+#instructors-carousel .c_time span:nth-child(1) {
+  border-radius: 0px 0px 15px 0px;
+}
+
+#instructors-carousel .c_time span:nth-child(2) {
+  border-radius: 0px 0px 0px 15px;
+}
+
+#instructors-carousel .c_time span:nth-child(3) {
+  border-radius: 0px 15px 0px 0px;
+}
+
+#instructors-carousel .c_time span:nth-child(4) {
+  border-radius: 15px 0px 0px 0px;
+}
+
+#instructors-carousel .mainImg {
+  width: 297px;
+  height: 367px;
+  margin: auto;
+}
+
+#instructors-carousel .info_ .star {
+  width: 24px;
+  height: 24px;
+}
+
+#instructors-carousel .info_ .arrow {
+  width: 19px;
+}
+
+#instructors-carousel .info_ span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FAFAFA;
+}
+
+#instructors-carousel .info_ li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#instructors-carousel .info p {
+  width: fit-content;
+  padding: 10px;
+  background: #FAFAFA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 38px;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+#instructors-carousel .info_tag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#instructors-carousel .info_ li:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+#instructors-carousel .item .content {
+  display: flex;
+  column-gap: 60px;
+  align-items: flex-start;
+  height: 100%;
+}
+
+#instructors-carousel .item {
+  position: relative;
+  padding: 50px 40px 100px 40px;
+}
+
+#instructors-carousel .item .carousel_item_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#instructors-carousel .owl-dots .owl-dot.active span,
+#instructors-carousel .owl-dots .owl-dot:hover span {
+  width: 30px;
+  height: 30px;
+  background: #F2F2F2;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+#instructors-carousel .owl-dots .owl-dot span {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+#instructors-carousel .owl-nav.disabled+.owl-dots {
+  margin-top: 0;
 }
