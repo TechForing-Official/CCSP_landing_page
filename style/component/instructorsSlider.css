@@ -168,8 +168,9 @@
 
 #instructors-carousel .item .carousel_item_bg {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 11px;
+  left: 13px;
+  width: 97%;
 }
 
 #instructors-carousel .owl-dots .owl-dot.active span,

@@ -1,0 +1,175 @@
+.course_overView .subtitle {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.course_overView .weeks ul {
+  position: relative;
+  padding: 0 38px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 5px;
+}
+
+.course_overView .weeks ul .indicator {
+  position: absolute;
+  top: -7px;
+  left: 3px;
+  z-index: -1;
+  transition: all 0.5s cubic-bezier(0.62, 0.29, 0.33, 1.18);
+}
+
+.course_overView .weeks li {
+  position: relative;
+  cursor: pointer;
+  margin: 10px;
+  width: 78px;
+  font-family: 'Roboto Slab';
+  font-weight: 600;
+  font-size: 21.5px;
+  line-height: 26px;
+  text-align: center;
+  color: #212529;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.course_overView .weeks li:nth-child(2).active~.indicator {
+  transform: translateX(139px);
+}
+
+.course_overView .weeks li:nth-child(3).active~.indicator {
+  transform: translateX(calc(139px * 2));
+}
+
+.course_overView .weeks li:nth-child(4).active~.indicator {
+  transform: translateX(calc(139px * 3));
+}
+
+.course_overView .weeks li:nth-child(5).active~.indicator {
+  transform: translateX(calc(139px * 4));
+}
+
+.course_overView .weeks li:nth-child(6).active~.indicator {
+  transform: translateX(calc(139px * 5));
+}
+
+.course_overView .weeks li:nth-child(7).active~.indicator {
+  transform: translateX(calc(139px * 6));
+}
+
+.course_overView .weeks li:nth-child(8).active~.indicator {
+  transform: translateX(calc(139px * 7));
+}
+
+
+.course_overView .weeks li.active {
+  color: #FAFAFA;
+  opacity: 1;
+}
+
+.course_overView .weekly_content {
+  padding: 20px;
+  background: linear-gradient(180deg, #1C6F9D 0%, #000000 100%);
+  border-radius: 12px;
+}
+
+.course_overView .weekly_content .imgArea {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.course_overView .texts div {
+  width: 48%;
+}
+
+.course_overView .content {
+  background: #FAFAFA;
+  border-radius: 12px;
+  padding: 20px 25px;
+
+}
+
+.course_overView .texts {
+  display: flex;
+  justify-content: space-between;
+  display: none;
+}
+
+.course_overView .texts h3 {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.0144em;
+  color: #212529;
+  margin-top: 20px;
+}
+
+.course_overView .texts p {
+  margin: 15px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #212529;
+}
+
+.course_overView .texts li {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.course_overView .texts li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.course_overView .texts li span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #212529;
+}
+
+.course_overView .offering {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.course_overView .offering .num {
+  font-family: 'Roboto Slab';
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: -0.0144em;
+  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.course_overView .offering p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  background: linear-gradient(180deg, #182F59 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.course_overView .offering .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
