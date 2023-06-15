@@ -102,6 +102,7 @@ button {
   padding: 64px 0;
   background: url(../img/ctaSecondBG.png) no-repeat center center / cover;
   border-radius: 0;
+  margin-top: 96px;
 }
 
 .cta_second .content p {

@@ -1,0 +1,118 @@
+.cybersecurity_enthusiasts .left {
+  width: 681px;
+}
+
+.cybersecurity_enthusiasts .imgArea {
+  position: relative;
+  min-height: 360px;
+  margin-bottom: 16px;
+}
+
+.cybersecurity_enthusiasts .imgArea .s_img0 {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cybersecurity_enthusiasts .imgArea .s_img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  border-radius: 12px;
+  width: 232px;
+  z-index: -1;
+}
+
+.cybersecurity_enthusiasts .imgArea .s_img2 {
+  position: absolute;
+  top: 0;
+  left: 60%;
+  opacity: 0.3;
+  border-radius: 12px;
+  width: 232px;
+  z-index: -1;
+}
+
+.cybersecurity_enthusiasts .right p {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 93px;
+  letter-spacing: -0.0144em;
+  background: linear-gradient(180deg, #4FC7ED 4.17%, #77DDFF 18.75%, #5FD4FF 51.04%, #62CEFF 73.96%, #52C1FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.cybersecurity_enthusiasts .container {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.cybersecurity_enthusiasts .slide {
+  position: relative;
+}
+
+.cybersecurity_enthusiasts .arrowI {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+#cybersecurity_enthusiasts_slide .item h3 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 48px;
+  letter-spacing: 0.06em;
+  color: #212529;
+  margin-bottom: 22px;
+}
+
+#cybersecurity_enthusiasts_slide .item li {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212529;
+}
+
+#cybersecurity_enthusiasts_slide .item ul {
+  margin-left: 48px;
+}
+
+#cybersecurity_enthusiasts_slide .item li:not(:last-child) {
+  margin-bottom: 44px;
+}
+
+#cybersecurity_enthusiasts_slide .owl-dots .owl-dot span {
+  width: 20px;
+  height: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box;
+  border: 2px solid transparent;
+}
+
+#cybersecurity_enthusiasts_slide .owl-dots .owl-dot.active span {
+  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+#cybersecurity_enthusiasts_slide .owl-dots .owl-dot:hover span {
+  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
+  width: 30px;
+  height: 30px;
+  border: none;
+}

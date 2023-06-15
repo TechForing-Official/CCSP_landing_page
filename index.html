@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="../style/component/media_slider.css">
   <link rel="stylesheet" href="../style/component/certification.css">
   <link rel="stylesheet" href="../style/component/overView.css">
+  <link rel="stylesheet" href="../style/component/cybersecurity_enthusiasts.css">
   <link rel="stylesheet" href="../style/component/course_overView.css">
   <link rel="stylesheet" href="../style/component/duration.css">
   <link rel="stylesheet" href="../style/component/demand.css">
@@ -188,6 +189,53 @@
             in terms of cybersecurity professionals</p>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="cybersecurity_enthusiasts pt-96">
+    <div class="container">
+      <din class="left">
+        <div class="imgArea">
+          <img class="s_img0" src="./img/c_s_1.png" alt="">
+          <img class="s_img1" src="./img/c_s_2.png" alt="">
+          <img class="s_img2" src="./img/c_s_3.png" alt="">
+        </div>
+        <div class="slide">
+          <div id="cybersecurity_enthusiasts_slide" class="owl-carousel owl-theme">
+            <div class="item" data-index="0">
+              <h3>Cybersecurity Enthusiasts</h3>
+              <ul>
+                <li>Anyone with basic computer operating knowledge looking for a hacking course</li>
+                <li>Already self-aware about personal devices & want to learn more about personal security</li>
+                <li>Professionals seeking cybersecurity training to meet workplace requirements.</li>
+              </ul>
+            </div>
+            <div class="item" data-index="1">
+              <h3>Cybersecurity Enthusiasts</h3>
+              <ul>
+                <li>Anyone with basic computer operating knowledge looking for a hacking course</li>
+                <li>Already self-aware about personal devices & want to learn more about personal security</li>
+                <li>Professionals seeking cybersecurity training to meet workplace requirements.</li>
+              </ul>
+            </div>
+            <div class="item" data-index="2">
+              <h3>Cybersecurity Enthusiasts</h3>
+              <ul>
+                <li>Anyone with basic computer operating knowledge looking for a hacking course</li>
+                <li>Already self-aware about personal devices & want to learn more about personal security</li>
+                <li>Professionals seeking cybersecurity training to meet workplace requirements.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="arrowI">
+            <img src="./img/c_hand.png" alt="">
+            <img src="./img/c_hand.png" alt="">
+            <img src="./img/c_hand.png" alt="">
+          </div>
+        </div>
+      </din>
+      <din class="right">
+        <p><span>Is</span> <span>It</span> <span>For</span> <span>Me</span> <span>?</span></p>
+      </din>
     </div>
   </section>
   <section class="ctaArea">
@@ -1276,10 +1324,13 @@
         loop: true,
         margin: 30,
         autoplay: true,
-        autoplayTimeout: 1000,
+        autoplayTimeout: 3000,
         autoplayHoverPause: false,
         navText: false
       });
+      //  media_slider js END
+
+      // instructors-carousel js START
       $('#instructors-carousel').owlCarousel({
         items: 1,
         loop: true,
@@ -1288,15 +1339,36 @@
         autoplayHoverPause: true,
         navText: true
       });
+      // instructors-carousel js END
 
-      //  media_slider js END
+      // cybersecurity_enthusiasts_slide js START
+      $('#cybersecurity_enthusiasts_slide').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: false,
+        navText: true
+      });
+      setInterval(function () {
+        const activeSlide = $('#cybersecurity_enthusiasts_slide .owl-item.active');
+        //index of active slide in all_Slide
+        const index = activeSlide.children().attr('data-index');
+        const imgsArray = $('.cybersecurity_enthusiasts .imgArea img');
+        //remove attr other img
+        imgsArray.not(imgsArray.eq(index)).removeClass('s_img0');
+
+      }, 4000);
+
+      // cybersecurity_enthusiasts_slide js END
+
       // course_overView js START
       $('.course_overView .weeks li').click(function () {
         $(this).addClass('active');
         $('.course_overView .weeks li').not($(this)).removeClass('active');
         console.log($(this).index());
         var img = $('.weekly_content .imgArea img');
-        console.log(img)
+        console.log(img);
         if ($(this).index() % 2 === 0) {
           //change src with fade effect 
           img.fadeOut(0, function () {
@@ -1318,8 +1390,6 @@
         });
         contentDiv.css('display', 'flex');
         //other display none
-
-
       });
       // course_overView js END
       // FAQ js START
