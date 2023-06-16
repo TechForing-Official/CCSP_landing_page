@@ -104,3 +104,52 @@
 .o_divider03 .bg {
   animation: slideBg 7s cubic-bezier(0.32, 0.51, 0.82, 0.6) infinite;
 }
+
+@media only screen and (max-width: 768px) {
+  .overView {
+    overflow: hidden;
+    min-height: 468px;
+  }
+
+  .overView .container {
+    gap: 0;
+  }
+
+  .overView-contentArea {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .overView-content h2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .overView-content p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    width: 164px;
+  }
+
+  .o_divider {
+    width: 280px;
+  }
+
+  .o_divider01 {
+    bottom: -3%;
+    right: -88%;
+    transform: rotate(-21deg);
+  }
+
+  .o_divider02 {
+    bottom: -199%;
+    right: 15%;
+    transform: rotate(-21deg);
+  }
+
+  .o_divider03 {
+    display: none;
+  }
+}

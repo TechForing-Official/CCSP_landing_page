@@ -207,4 +207,12 @@ button {
     width: 16px;
     height: 16px;
   }
+
+  .pt-96 {
+    padding-top: 32px;
+  }
+
+  .pb-96 {
+    padding-bottom: 32px;
+  }
 }

@@ -37,6 +37,10 @@
   justify-content: center;
 }
 
+.certification .point:not(:last-child) {
+  margin-bottom: 32px;
+}
+
 .certification .point::before {
   position: absolute;
   z-index: -1;

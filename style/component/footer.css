@@ -100,3 +100,54 @@
   line-height: 24px;
   color: #FAFAFA;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .footer .details::before {
+    content: url(../../img/f_divider2.png);
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer .details::after {
+    content: url(../../img/f_divider2.png);
+    top: 102%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer_top {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .footer h3 {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  .footer_top {
+    padding: 20px;
+  }
+
+  .footer .details span {
+    font-size: 16px;
+  }
+
+  .footer .details p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .footer .details .detail {
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .footer .address p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

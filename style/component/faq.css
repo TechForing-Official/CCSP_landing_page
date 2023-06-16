@@ -98,3 +98,21 @@
   background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
   border: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .faq .title {
+    margin-bottom: 24px;
+    padding: 0 45px;
+  }
+
+  .faq .content {
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .faq .faq_lists {
+    margin-top: 0;
+    width: 100%;
+    row-gap: 7px;
+  }
+}
