@@ -84,3 +84,75 @@
   line-height: 26px;
   color: #FAFAFA;
 }
+
+@media only screen and (max-width: 768px) {
+  .demand {
+    width: 100%;
+    padding: 64px 0;
+    /* min-height: 1503px; */
+    background: url(../../img/demandBG2.png) no-repeat center center / cover;
+  }
+
+  .demand .title {
+    text-align: start;
+    margin: 20px 0 28px 0;
+  }
+
+  .demand .subtitle {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: start;
+    padding: 10px;
+  }
+
+  .demand-cards {
+    margin: 28px 0;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 38px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+  }
+
+  .demand-card:nth-child(even) {
+    padding-top: 0px;
+  }
+
+  .demand-card span {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 10px;
+  }
+
+  .demand-card .card-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .demand-card {
+    gap: 8px;
+  }
+
+  .demand-card .card-bg {
+    top: -15px;
+    width: 90%;
+  }
+
+  .demand .container:nth-child(2) {
+    padding: 0;
+  }
+
+  .d_cta {
+    width: 100%;
+    flex-direction: column;
+    margin: 28px auto 0 auto;
+    gap: 10px;
+  }
+
+  .d_cta P {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 20px;
+    text-align: center;
+  }
+}

@@ -215,4 +215,41 @@ button {
   .pb-96 {
     padding-bottom: 32px;
   }
+
+  .cta .content {
+    flex-direction: column;
+  }
+
+  .ctaArea .container {
+    padding: 0;
+  }
+
+  .ctaArea .cta {
+    border-radius: 0;
+    min-height: 158px;
+  }
+
+  .ctaArea .cta .content p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 24px;
+  }
+
+  .ctaArea .cta {
+    background: url(../../img/ctaBG2.png) no-repeat center center / cover;
+    margin-top: 32px;
+  }
+
+  .subTitle {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 12px;
+  }
+
+  .ctaBtn {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 9px 42px;
+  }
 }
