@@ -10,29 +10,29 @@
 
 .cybersecurity_enthusiasts .imgArea .s_img0 {
   position: absolute;
-  top: 50px;
-  left: 50%;
-  transform: translateX(-50%);
+  transition: all 0.3s ease-in-out;
 }
 
 .cybersecurity_enthusiasts .imgArea .s_img1 {
   position: absolute;
-  top: 0;
+  transition: all 0.3s ease-in-out;
+  /* top: 0;
   left: 0;
   opacity: 0.3;
   border-radius: 12px;
   width: 232px;
-  z-index: -1;
+  z-index: -1; */
 }
 
 .cybersecurity_enthusiasts .imgArea .s_img2 {
   position: absolute;
-  top: 0;
+  transition: all 0.3s ease-in-out;
+  /* top: 0;
   left: 60%;
   opacity: 0.3;
   border-radius: 12px;
   width: 232px;
-  z-index: -1;
+  z-index: -1; */
 }
 
 .cybersecurity_enthusiasts .right p {
@@ -41,7 +41,17 @@
   font-weight: 600;
   font-size: 70px;
   line-height: 93px;
+  /* background: linear-gradient(180deg, #4FC7ED 4.17%, #77DDFF 18.75%, #5FD4FF 51.04%, #62CEFF 73.96%, #52C1FF 100%); */
+  background: linear-gradient(180deg, #182F59 0%, #000000 100%);
   letter-spacing: -0.0144em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  letter-spacing: 2px;
+}
+
+.cybersecurity_enthusiasts .right p span.active {
   background: linear-gradient(180deg, #4FC7ED 4.17%, #77DDFF 18.75%, #5FD4FF 51.04%, #62CEFF 73.96%, #52C1FF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -91,28 +101,4 @@
 
 #cybersecurity_enthusiasts_slide .item li:not(:last-child) {
   margin-bottom: 44px;
-}
-
-#cybersecurity_enthusiasts_slide .owl-dots .owl-dot span {
-  width: 20px;
-  height: 20px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  background: linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box;
-  border: 2px solid transparent;
-}
-
-#cybersecurity_enthusiasts_slide .owl-dots .owl-dot.active span {
-  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
-  width: 30px;
-  height: 30px;
-  border: none;
-}
-
-#cybersecurity_enthusiasts_slide .owl-dots .owl-dot:hover span {
-  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
-  width: 30px;
-  height: 30px;
-  border: none;
 }

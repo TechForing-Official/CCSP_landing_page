@@ -35,12 +35,12 @@ header {
 }
 
 .nav .actionBtn {
-  background:
+  /* background:
     linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box;
-  color: #313149;
-  padding: 20px 70px;
-  border: 2px solid transparent;
+    linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box; */
+  background: #5BBC2E;
+  /* color: #313149; */
+  border: none;
   border-radius: 10px;
   display: inline-block;
   font-size: 16px;
@@ -61,12 +61,45 @@ header {
 
 .nav .actionBtn span {
   font-weight: 700;
-  text-transform: capitalize;
   white-space: nowrap;
+  /* text-transform: capitalize;
   letter-spacing: -0.0218em;
   background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  text-fill-color: transparent; */
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    height: 74px;
+  }
+
+  .nav .logoArea img {
+    width: 75px;
+  }
+
+  .nav .logoArea .tagLine {
+    font-size: 10px;
+  }
+
+  .nav .actionBtn {
+    width: 120px;
+    height: 38px;
+    padding: 0;
+    justify-content: center;
+    gap: 4.5px;
+  }
+
+  .nav .actionBtn img {
+    width: 18px;
+  }
+
+  .nav .actionBtn span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
 }

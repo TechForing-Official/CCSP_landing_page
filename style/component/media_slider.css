@@ -35,3 +35,35 @@
   display: flex;
   align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+  .mediaSlide {
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #media-carousel .owl-dots {
+    display: none !important;
+  }
+
+  .mediaSlide .container {
+    gap: 10px;
+  }
+
+  .mediaSlide .title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    width: 117px;
+  }
+
+  .mediaSlide .owl-carousel {
+    width: calc(100% - 127px);
+  }
+
+  .mediaSlide .title::after {
+    display: none;
+  }
+}
