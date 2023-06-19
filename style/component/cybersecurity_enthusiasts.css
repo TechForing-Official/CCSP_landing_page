@@ -103,4 +103,51 @@
   margin-bottom: 44px;
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+  .cybersecurity_enthusiasts .container {
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+
+  .cybersecurity_enthusiasts .right p {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 69px;
+    text-align: center;
+  }
+
+  .cybersecurity_enthusiasts .left,
+  .cybersecurity_enthusiasts .right {
+    width: 100%;
+  }
+
+  .cybersecurity_enthusiasts .imgArea {
+    min-height: 200px;
+  }
+
+  #cybersecurity_enthusiasts_slide .item h3 {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    margin-bottom: 8px;
+  }
+
+  #cybersecurity_enthusiasts_slide .item li {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  #cybersecurity_enthusiasts_slide .item li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .cybersecurity_enthusiasts .arrowI {
+    width: 15px;
+    bottom: 53px;
+    gap: 30px;
+  }
+
+  #cybersecurity_enthusiasts_slide .item ul {
+    margin-left: 25px;
+  }
+}

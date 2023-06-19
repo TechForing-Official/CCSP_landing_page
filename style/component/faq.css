@@ -115,4 +115,8 @@
     width: 100%;
     row-gap: 7px;
   }
+
+  .faq .ques {
+    padding: 6px;
+  }
 }

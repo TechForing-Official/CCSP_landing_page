@@ -98,7 +98,7 @@ button {
 
 }
 
-.cta_second {
+.ctaArea .cta.cta_second {
   padding: 64px 0;
   background: url(../img/ctaSecondBG.png) no-repeat center center / cover;
   border-radius: 0;
@@ -111,7 +111,7 @@ button {
   font-weight: 600;
   font-size: 50px;
   line-height: 73px;
-  text-shadow: 0px 0px 30px #FFFFFF;
+  text-shadow: 0px 0px 12px #FFFFFF;
 }
 
 .ctaBtn {
@@ -179,6 +179,7 @@ button {
   .container {
     width: 100%;
     padding: 0 16px;
+    overflow: hidden;
   }
 
   .sm-none {
@@ -218,6 +219,7 @@ button {
 
   .cta .content {
     flex-direction: column;
+    gap: 0;
   }
 
   .ctaArea .container {
@@ -239,6 +241,18 @@ button {
   .ctaArea .cta {
     background: url(../../img/ctaBG2.png) no-repeat center center / cover;
     margin-top: 32px;
+  }
+
+  .ctaArea .cta.cta_second {
+    padding: 20px 0;
+  }
+
+  .ctaArea .cta.cta_second .content p {
+    font-size: 25px;
+    line-height: 36px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
   }
 
   .subTitle {

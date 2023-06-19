@@ -88,8 +88,8 @@
 @media only screen and (max-width: 768px) {
   .demand {
     width: 100%;
-    padding: 64px 0;
-    /* min-height: 1503px; */
+    padding: 30px 0 0 0;
+    margin: 32px 0;
     background: url(../../img/demandBG2.png) no-repeat center center / cover;
   }
 
