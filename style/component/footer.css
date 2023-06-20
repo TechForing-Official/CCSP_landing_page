@@ -8,12 +8,13 @@
 .footer_top {
   padding: 48px 0 18px 0;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 
 .footer .certifications {
   width: 279px;
+  margin-top: 30px;
 }
 
 .footer .details {
@@ -43,6 +44,7 @@
 
 .footer .address {
   width: 246px;
+  margin-top: 30px;
 }
 
 .footer .address .location {

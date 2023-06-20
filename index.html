@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../style/index.css">
   <link rel="stylesheet" href="../style/component/hero.css">
   <link rel="stylesheet" href="../style/component/header.css">
@@ -30,7 +31,7 @@
 
 <body>
   <header class="nav">
-    <div class="container">
+    <div class="custom_container">
       <div class="content">
         <div class="logoArea">
           <img src="../img/logo.png" alt="">
@@ -41,7 +42,7 @@
     </div>
   </header>
   <section class="hero">
-    <div class="container">
+    <div class="custom_container">
       <div class="content">
         <!-- <h6>Certified CyberSecurity Professional [CCSP]</h6> -->
         <h2>BECOME A <br>
@@ -49,7 +50,8 @@
           With TechForing CCSP Training
         </h2>
         <div class="formArea in_sm">
-          <h1 style="color: aliceblue;">form here</h1>
+          <!-- <h1 style="color: aliceblue;">form here</h1> -->
+          <img src="./img/FORM.png" alt="">
         </div>
         <ul>
           <li><img src="../img/listIcon.png" alt=""><span>A wide range of cybersecurity topics</span></li>
@@ -63,22 +65,19 @@
         </ul>
 
       </div>
-      <div>
+      <div class="content_s">
         <div class="formArea in_lg">
-          <h1 style="color: aliceblue;">form here</h1>
+          <!-- <h1 style="color: aliceblue;">form here</h1> -->
+          <img src="./img/FORM.png" alt="">
         </div>
         <div class="timeArea">
-          <div class="t_container">
+          <div class="t_custom_container">
             <div class="c_title"><span>Spot Left</span><span>Time Left</span></div>
             <div class="timer">
               <div>
                 <span class="num"><span>50</span></span>
               </div>
-              <div class="countdown">
-                <span class="num"><span>23</span></span><small>:</small>
-                <span class="num"><span>23</span></span><small>:</small>
-                <span class="num"><span>44</span></span><small>:</small>
-                <span class="num"><span>55</span></span>
+              <div id="countdown">
               </div>
             </div>
             <div class="t_tag">
@@ -93,7 +92,7 @@
     </div>
   </section>
   <section class="mediaSlide">
-    <div class="container">
+    <div class="custom_container">
       <div class="title">You Might Know<br />Us From</div>
       <div id="media-carousel" class="owl-carousel owl-theme">
         <div class="item"><img src="../img/media/Forbes svg.png" alt="Image 1"></div>
@@ -105,7 +104,7 @@
     </div>
   </section>
   <section class="certification">
-    <div class="container">
+    <div class="custom_container">
       <h1 class="title">Become CCSP Certified Today !</h1>
       <div class="points sm-none">
         <div class="point">
@@ -221,7 +220,7 @@
     </div>
   </section>
   <section class="overView">
-    <div class="container">
+    <div class="custom_container">
       <div class="overView-contentArea">
         <div class="overView-content">
           <h2>$ 134,800</h2>
@@ -231,7 +230,7 @@
             <div class="bg"></div>
           </div>
         </div>
-        <div class="overView-content" style="margin-top: 90px;">
+        <div class="overView-content">
           <h2>3.4 Million</h2>
           <p>security workforce gap in 2022</p>
           <div class="o_divider o_divider02">
@@ -248,7 +247,7 @@
             <div class="bg"></div>
           </div>
         </div>
-        <div class="overView-content" style="margin-top: 90px;">
+        <div class="overView-content">
           <h2>62%</h2>
           <p>of organizations feel understaffed
             in terms of cybersecurity professionals</p>
@@ -257,7 +256,7 @@
     </div>
   </section>
   <section class="course_overView pt-96">
-    <div class="container">
+    <div class="custom_container">
       <h1 class="title">Become a Certified Cybersecurity Professional in just (08) weeks!</h1>
       <p class="subtitle">Learn everything you need to master the fundamentals of cybersecurity through detailed classes
         and hands-on lab components and prepare yourself for the certification exam.</p>
@@ -749,7 +748,7 @@
     </div>
   </section>
   <section class="duration pt-96">
-    <div class="container">
+    <div class="custom_container">
       <div class="content_one">
         <div class="content">
           <h3 class="title">Duration</h3>
@@ -772,7 +771,7 @@
   </section>
   <section class="ctaArea">
     <div class="cta cta_second">
-      <div class="container">
+      <div class="custom_container">
         <div class="content">
           <p>Join the cybersecurity elite become a certified professional!</p>
           <button class="ctaBtn">Get Onboard</button>
@@ -782,7 +781,7 @@
     <div class="rail_drop"></div>
   </section>
   <section class="cybersecurity_enthusiasts pt-96">
-    <div class="container">
+    <div class="custom_container">
       <din class="left">
         <div class="imgArea">
           <img class="s_img0" src="./img/c_s_1.png" alt="">
@@ -830,7 +829,7 @@
     <img src="./img/HoneyCOMB.png" alt="" class="c_bg">
   </section>
   <section class="demand">
-    <div class="container">
+    <div class="custom_container">
       <h1 class="title">
         Cybersecurity Professionals Are in
         High DEMAND, Here’s why-
@@ -879,9 +878,11 @@
         <button class="ctaBtn">Get Onboard</button>
       </div>
     </div>
+    <img class="demandBG sm-none" src="./img/demandBG.png" alt="">
+    <img class="demandBG lg-none" src="./img/demandBG2.png" alt="">
   </section>
   <section class="instructorsSlider pb-96">
-    <div class="container">
+    <div class="custom_container">
       <h1 class="title">Our Instructors</h1>
       <div id="instructors-carousel" class="owl-carousel owl-theme">
         <div class="item">
@@ -1093,7 +1094,7 @@
       <img class="bg lg-none" src="../img/instructor_bg_sm.png" alt='' />
   </section>
   <section class="getTrial pb-96">
-    <div class="container">
+    <div class="custom_container">
       <h1 class="title">Get Trained by the Best and Work with Us!</h1>
       <p class="subTitle">We’re thrilled to announce that the top-performing students of our training program
         will a
@@ -1124,7 +1125,7 @@
     </div>
   </section>
   <section class="secureFuture_TF">
-    <div class="container">
+    <div class="custom_container">
       <div class="contentArea">
         <div class="content">
           <h1>Secure Your Future with Techforing Ltd</h1>
@@ -1164,7 +1165,7 @@
     </div>
   </section>
   <section class="ctaArea  pb-96">
-    <div class="container">
+    <div class="custom_container">
       <div class="cta">
         <div class="content">
           <p>Start Your Cybersecurity Career Today</p>
@@ -1174,7 +1175,7 @@
     </div>
   </section>
   <section class="faq pb-96">
-    <div class="container">
+    <div class="custom_container">
       <h1 class="title">Frequently Asked Questions</h1>
       <div class="content">
         <div class="faq_lists">
@@ -1439,7 +1440,7 @@
     </div>
   </section>
   <section class="footer">
-    <div class="footer_top container">
+    <div class="footer_top custom_container">
       <div class="certifications">
         <h3>Certifications</h3>
         <img src="../img/certifications.png" alt="certifications" />
@@ -1479,12 +1480,6 @@
       <p>Copyright © 2023 Techforing Ltd.</p>
     </div>
   </section>
-  <!-- <div id="header"></div>
-  <div id="hero"></div>
-  <div id="media_slider"></div>
-  <div id="certification"></div>
-  <div id="duration"></div>
-  <div id="instructorsSlider"></div> -->
   <script>
     function includeHTML(url, elementId) {
       fetch(url)
@@ -1497,12 +1492,7 @@
     }
 
     // Include file1.html
-    // includeHTML('../component/hero.html', 'hero');
-    // includeHTML('../component/header.html', 'header');
-    // includeHTML('../component/media_slider.html', 'media_slider');
-    // includeHTML('../component/certification.html', 'certification');
-    // includeHTML('../component/duration.html', 'duration');
-    // includeHTML('../component/instructorsSlider.html', 'instructorsSlider');
+    includeHTML('./timer.html', 'countdown');
   </script>
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -1530,7 +1520,6 @@
             margin: 0,
             navText: false,
           }
-
         }
       });
       //  media_slider js END
@@ -1612,8 +1601,7 @@
           imgsArray.eq(0).css(css1);
           imgsArray.eq(1).css(css2);
         }
-
-      }, 3000);
+      }, 300);
       setInterval(function () {
         const tagName = $('.cybersecurity_enthusiasts .right p span');
         const tagNameActive = $('.cybersecurity_enthusiasts .right p span.active');
@@ -1675,7 +1663,7 @@
             },
             769: {
               items: 2,
-              margin: 0,
+              margin: 50,
               navText: false,
             }
 
@@ -1694,13 +1682,93 @@
       });
       // FAQ js END
       //for duration animation START
-      var containerOne = $(".duration .content_one .content");
-      var containerTwo = $(".duration .content_two .content");
-      //set animation on containerOne left to right and containerTwo right to left on scroll
+      var custom_containerOne = $(".duration .content_one .content");
+      var custom_containerTwo = $(".duration .content_two .content");
+      //set animation on custom_containerOne left to right and custom_containerTwo right to left on scroll
 
       //for duration animation END
     });
   </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    /*Declare time*/
+    const countToDate = new Date().setDate(new Date().getDate() + 9);
+
+    /*Calculate time from current date compared to the Declared time*/
+    setInterval(() => {
+      const currentDate = new Date();
+      const timeBetweenDates = Math.ceil((countToDate - currentDate) / 1000);
+      flipAllcard(timeBetweenDates);
+    }, 250);
+
+
+    /*Populate the cards with the data coming from the Declared Time*/
+    function flipAllcard(time) {
+      const seconds = time % 60;
+      const minutes = Math.floor(time / 60) % 60;
+      const hours = Math.floor(time / 3600) % 24;
+      const days = Math.floor(time / 86400);
+
+      flip(document.querySelector("[data-days]"), days, true);
+      flip(document.querySelector("[data-hours]"), hours);
+      flip(document.querySelector("[data-minutes]"), minutes);
+      flip(document.querySelector("[data-seconds]"), seconds);
+    }
+
+
+    /*Flip animation function for the cards*/
+    function flip(flipcard, newNumber, flag) {
+      const cardTop = flipcard.querySelector("[data-card-top]");
+      const startNumber = cardTop ? parseInt(cardTop.textContent, 10) : 0;
+
+      const cardBot = flipcard.querySelector("[data-card-bot]"),
+        topFlip = flipcard.querySelector("[data-flip-top]"),
+        botFlip = flipcard.querySelector("[data-flip-bot]"),
+        topFlipNum = flipcard.querySelector("[data-flip-top-num]"),
+        botFlipNum = flipcard.querySelector("[data-flip-bot-num]");
+
+      if (newNumber === startNumber) return;
+
+      const displayStartNum = String(startNumber).padStart(2, "0");
+
+      const displayNewNum = String(newNumber).padStart(2, "0");
+
+      if (flag) console.log("displayStartNum", displayStartNum, displayNewNum);
+
+      const anim = (el, event, callback) => {
+        const handler = () => {
+          el.removeEventListener(event, handler);
+          callback();
+        };
+
+        el.addEventListener(event, handler);
+      };
+
+      cardTop.textContent = displayStartNum;
+      cardBot.textContent = displayStartNum;
+      topFlipNum.textContent = displayStartNum;
+      botFlipNum.textContent = displayNewNum;
+
+      topFlip.classList.add("flip-card-top");
+      botFlip.classList.add("flip-card-bottom");
+
+      anim(topFlip, "animationstart", () => {
+        cardTop.textContent = displayNewNum;
+      });
+
+      anim(topFlip, "animationend", () => {
+        topFlipNum.innerText = displayNewNum;
+        topFlip.classList.remove("flip-card-top");
+      });
+
+      anim(botFlip, "animationend", () => {
+        cardBot.textContent = displayNewNum;
+        botFlip.classList.remove("flip-card-bottom");
+      });
+    }
+  </script>
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
 </body>
 
 </html>

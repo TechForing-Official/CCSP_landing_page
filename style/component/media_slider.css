@@ -3,7 +3,7 @@
   overflow: hidden;
 }
 
-.mediaSlide .container {
+.mediaSlide .custom_container {
   display: flex;
   align-items: center;
   gap: 42px;
@@ -48,7 +48,7 @@
     display: none !important;
   }
 
-  .mediaSlide .container {
+  .mediaSlide .custom_container {
     gap: 10px;
   }
 

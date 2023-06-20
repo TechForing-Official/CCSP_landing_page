@@ -164,7 +164,7 @@
 
   .secureFuture_TF .covered .counter:nth-child(1) {
     top: 4%;
-    right: 65%;
+    right: 62%;
   }
 
   .secureFuture_TF .covered .counter:nth-child(3) {
@@ -194,9 +194,5 @@
 
   .secureFuture_TF .content .contentBG {
     display: none;
-  }
-
-  .secureFuture_TF .covered .cBG {
-    height: 100%;
   }
 }

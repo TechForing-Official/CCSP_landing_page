@@ -25,7 +25,7 @@ button {
   cursor: pointer;
 }
 
-.container {
+.custom_container {
   width: 1140px;
   margin: 0 auto;
 }
@@ -51,16 +51,16 @@ button {
 }
 
 .py-96 {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 96px !important;
+  padding-bottom: 96px !important;
 }
 
 .pb-96 {
-  padding-bottom: 96px;
+  padding-bottom: 96px !important;
 }
 
 .pt-96 {
-  padding-top: 96px;
+  padding-top: 96px !important;
 }
 
 .cta {
@@ -163,14 +163,6 @@ button {
   border: none;
 }
 
-#certification-carousel .owl-dots .owl-dot:hover span,
-#cybersecurity_enthusiasts_slide .owl-dots .owl-dot:hover span {
-  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
-  width: 30px;
-  height: 30px;
-  border: none;
-}
-
 @media only screen and (max-width: 768px) {
   .title {
     font-weight: 600;
@@ -178,7 +170,7 @@ button {
     line-height: 33px;
   }
 
-  .container {
+  .custom_container {
     width: 100%;
     padding: 0 16px;
     overflow: hidden;
@@ -214,11 +206,11 @@ button {
   }
 
   .pt-96 {
-    padding-top: 32px;
+    padding-top: 32px !important;
   }
 
   .pb-96 {
-    padding-bottom: 32px;
+    padding-bottom: 32px !important;
   }
 
   .cta .content {
@@ -226,7 +218,7 @@ button {
     gap: 0;
   }
 
-  .ctaArea .container {
+  .ctaArea .custom_container {
     padding: 0;
   }
 

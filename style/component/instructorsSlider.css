@@ -12,11 +12,11 @@
   width: 100%;
 }
 
-.instructorsSlider .container {
+.instructorsSlider .custom_container {
   position: relative;
 }
 
-.instructorsSlider .container .bg {
+.instructorsSlider .custom_container .bg {
   position: absolute;
   top: 0;
   left: 50%;
@@ -216,7 +216,7 @@
     top: 50px;
   }
 
-  .instructorsSlider .container .bg {
+  .instructorsSlider .custom_container .bg {
     position: absolute;
     top: 0;
     left: calc(100% - 16px);

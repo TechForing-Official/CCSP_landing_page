@@ -70,7 +70,7 @@
   text-fill-color: transparent;
 }
 
-.cybersecurity_enthusiasts .container {
+.cybersecurity_enthusiasts .custom_container {
   display: flex;
   align-items: center;
   gap: 90px;
@@ -128,7 +128,7 @@
     margin-top: 25px;
   }
 
-  .cybersecurity_enthusiasts .container {
+  .cybersecurity_enthusiasts .custom_container {
     flex-direction: column-reverse;
     gap: 15px;
   }
