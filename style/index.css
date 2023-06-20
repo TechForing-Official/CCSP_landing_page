@@ -142,7 +142,7 @@ button {
   display: block !important;
 }
 
-#certification-carousel .owl-dots .owl-dot span,
+/* #certification-carousel .owl-dots .owl-dot span,
 .weekly_content .owl-carousel .owl-dots .owl-dot span,
 #cybersecurity_enthusiasts_slide .owl-dots .owl-dot span {
   width: 20px;
@@ -152,15 +152,16 @@ button {
   background: linear-gradient(#fff, #fff) padding-box,
     linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box;
   border: 2px solid transparent;
-}
+} */
 
+#instructors-carousel .owl-dots .owl-dot.active span,
 #certification-carousel .owl-dots .owl-dot.active span,
 .weekly_content .owl-carousel .owl-dots .owl-dot.active span,
 #cybersecurity_enthusiasts_slide .owl-dots .owl-dot.active span {
   background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
-  width: 30px;
+  /* width: 30px;
   height: 30px;
-  border: none;
+  border: none; */
 }
 
 @media only screen and (max-width: 768px) {

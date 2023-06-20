@@ -16,9 +16,7 @@
   background: #FAFAFA;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 18px;
-  /* height: 91px;
-  overflow: hidden; */
-
+  cursor: pointer;
   transition: height, overflow 0.3s ease-in-out;
 }
 

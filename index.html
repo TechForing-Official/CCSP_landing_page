@@ -799,19 +799,19 @@
               </ul>
             </div>
             <div class="item" data-index="1">
-              <h3>Cybersecurity Enthusiasts</h3>
+              <h3>IT Professionals</h3>
               <ul>
-                <li>Anyone with basic computer operating knowledge looking for a hacking course</li>
-                <li>Already self-aware about personal devices & want to learn more about personal security</li>
-                <li>Professionals seeking cybersecurity training to meet workplace requirements.</li>
+                <li>IT department individuals who want to learn cybersecurity for their organization</li>
+                <li>Professionals willing to upgrade their knowledge in information security</li>
+                <li>IT professionals willing to become ethical hackers for organizations.</li>
               </ul>
             </div>
             <div class="item" data-index="2">
-              <h3>Cybersecurity Enthusiasts</h3>
+              <h3>Programmers</h3>
               <ul>
-                <li>Anyone with basic computer operating knowledge looking for a hacking course</li>
-                <li>Already self-aware about personal devices & want to learn more about personal security</li>
-                <li>Professionals seeking cybersecurity training to meet workplace requirements.</li>
+                <li>Pursuing a career in cybersecurity with a programming language background</li>
+                <li>App/website developers looking to learn more about exploitable vulnerabilities</li>
+                <li>Programmers willing to become certified ethical hackers.</li>
               </ul>
             </div>
           </div>
@@ -828,7 +828,7 @@
     </div>
     <img src="./img/HoneyCOMB.png" alt="" class="c_bg">
   </section>
-  <section class="demand">
+  <section class="demand sm-mb_44">
     <div class="custom_container">
       <h1 class="title">
         Cybersecurity Professionals Are in
@@ -1137,27 +1137,27 @@
         <div class="covered">
           <div class="counter">
             <h5 class="count">1250+</h5>
-            <p class="tag">Companies <br /><span class="type">Choose Us</span></p>
+            <p class="tag">Companies <br />Choose Us</p>
           </div>
           <div class="counter">
             <h5 class="count">150+</h5>
-            <p class="tag"><span class="type">Cybersecurity Experts</span></p>
+            <p class="tag">Cybersecurity <br />Experts</p>
           </div>
           <div class="counter">
             <h5 class="count">90+</h5>
-            <p class="tag"><span class="type">Countries Covered</span></p>
+            <p class="tag">Countries <br />Covered</p>
           </div>
           <div class="counter">
             <h5 class="count">7000+</h5>
-            <p class="tag">Satisfied <br /><span class="type">Clients</span></p>
+            <p class="tag">Satisfied <br />Clients</p>
           </div>
           <div class="counter">
             <h5 class="count">24/7</h5>
-            <p class="tag">Access to industry-<br /><span class="type">leading resource portal</span></p>
+            <p class="tag">Access to industry-<br />leading resource portal</p>
           </div>
           <div class="counter">
             <h5 class="count">9+</h5>
-            <p class="tag">Years Worldwide<br /><span class="type">Services</span></p>
+            <p class="tag">Years Worldwide<br />Services</p>
           </div>
           <img src="../img/Earth.png" alt="" class="cBG">
         </div>
@@ -1672,13 +1672,13 @@
       });
       // course_overView js END
       // FAQ js START
-      $(".faq .svg").click(function () {
-        $(this).parent().parent().toggleClass("active");
+      $(".faq .list").click(function () {
+        $(this).toggleClass("active");
         //transition effect
-        $(this).parent().parent().find("p").slideToggle("fast");
+        $(this).find("p").slideToggle("fast");
         //other close faq with  transition effect
-        $(".faq .svg").not($(this)).parent().parent().removeClass("active");
-        $(".faq .svg").not($(this)).parent().parent().find("p").slideUp("fast");
+        $(".faq .svg").not($(this)).removeClass("active");
+        $(".faq .svg").not($(this)).find("p").slideUp("fast");
       });
       // FAQ js END
       //for duration animation START

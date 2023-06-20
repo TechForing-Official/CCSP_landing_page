@@ -165,4 +165,8 @@
     padding: 0 20px;
     text-align: center;
   }
+
+  .sm-mb_44 {
+    margin-bottom: 44px !important;
+  }
 }

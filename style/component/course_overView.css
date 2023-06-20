@@ -305,4 +305,8 @@
     border: 1px solid transparent;
   }
 
+  .course_overView .imgArea img {
+    height: 87.38px;
+  }
+
 }

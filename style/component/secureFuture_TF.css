@@ -150,6 +150,15 @@
   .secureFuture_TF .covered {
     width: 100%;
     height: 429px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    align-items: center;
+    column-gap: 34px;
+  }
+
+  .secureFuture_TF .covered .counter {
+    position: initial;
+    margin-left: 18px;
   }
 
   .secureFuture_TF .covered .count {
@@ -160,6 +169,7 @@
   .secureFuture_TF .covered .counter p {
     font-size: 14px;
     line-height: 18px;
+    text-align: start;
   }
 
   .secureFuture_TF .covered .counter:nth-child(1) {
