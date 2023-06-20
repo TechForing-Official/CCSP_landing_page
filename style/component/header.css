@@ -56,19 +56,12 @@ header {
 }
 
 .nav .actionBtn:hover {
-  box-shadow: 0px 0px 30px #5FD2FB;
+  box-shadow: 0px 0px 20px #5BBC2E;
 }
 
 .nav .actionBtn span {
   font-weight: 700;
   white-space: nowrap;
-  /* text-transform: capitalize;
-  letter-spacing: -0.0218em;
-  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent; */
   color: #FFFFFF;
 }
 

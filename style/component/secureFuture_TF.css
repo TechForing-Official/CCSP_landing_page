@@ -195,4 +195,8 @@
   .secureFuture_TF .content .contentBG {
     display: none;
   }
+
+  .secureFuture_TF .covered .cBG {
+    height: 100%;
+  }
 }

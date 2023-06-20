@@ -39,6 +39,11 @@
   transition: all 0.3s ease-in-out;
 }
 
+.weekly_content .owl-carousel .l_icon {
+  width: 18px;
+  height: 18px;
+}
+
 .course_overView .weeks li:nth-child(2).active~.indicator {
   transform: translateX(139px);
 }
@@ -81,10 +86,6 @@
 
 .course_overView .weekly_content .imgArea {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.course_overView .texts div {
-  width: 48%;
 }
 
 .course_overView .content {
@@ -173,4 +174,129 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.course_overView .offering.sm-none {
+  display: flex !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .course_overView .offering.sm-none {
+    display: none !important;
+  }
+
+  .course_overView .weeks {
+    overflow-x: scroll;
+    margin: 0 10px;
+  }
+
+  .course_overView .subtitle {
+    width: 100%;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .course_overView .weeks li {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 4px;
+    width: fit-content;
+  }
+
+  .course_overView .weeks ul {
+    gap: 5px;
+    padding: 0;
+  }
+
+  .course_overView .weeks li.active {
+    background: linear-gradient(180deg, #182F59 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .course_overView .content {
+    padding: 10px;
+  }
+
+  .course_overView .container {
+    width: calc(100% - 12px);
+    padding: 0;
+  }
+
+  .course_overView .weekly_content {
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+  .course_overView .texts h3 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .course_overView .texts p {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 8px 0;
+  }
+
+  .course_overView .offering.lg-none {
+    display: flex !important;
+    gap: 24px;
+    margin-top: 0;
+  }
+
+  .course_overView .offering .item>div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .course_overView .offering .item>div img {
+    width: 32px;
+  }
+
+  .course_overView .offering .item {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .course_overView .offering .num {
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .course_overView .offering p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .course_overView .texts li span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .course_overView .weeks::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: #F5F5F5;
+    border-radius: 12px;
+  }
+
+  .course_overView .weeks::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+  }
+
+  .course_overView .weeks::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box;
+    ;
+    border: 1px solid transparent;
+  }
+
 }
