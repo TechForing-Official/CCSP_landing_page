@@ -115,22 +115,20 @@
   .footer .details::after {
     content: url(../../img/f_divider2.png);
     top: 102%;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
   }
 
   .footer_top {
     flex-direction: column;
     gap: 32px;
+    padding: 20px;
+    align-items: center;
   }
 
   .footer h3 {
     font-size: 25px;
     margin-bottom: 0;
-  }
-
-  .footer_top {
-    padding: 20px;
   }
 
   .footer .details span {
@@ -151,5 +149,10 @@
   .footer .address p {
     font-size: 12px;
     line-height: 18px;
+  }
+
+  .footer .certifications,
+  .footer .address {
+    margin-top: 0;
   }
 }

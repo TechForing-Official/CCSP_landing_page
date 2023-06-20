@@ -142,26 +142,39 @@ button {
   display: block !important;
 }
 
-/* #certification-carousel .owl-dots .owl-dot span,
-.weekly_content .owl-carousel .owl-dots .owl-dot span,
-#cybersecurity_enthusiasts_slide .owl-dots .owl-dot span {
-  width: 20px;
-  height: 20px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  background: linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box;
-  border: 2px solid transparent;
-} */
-
 #instructors-carousel .owl-dots .owl-dot.active span,
 #certification-carousel .owl-dots .owl-dot.active span,
 .weekly_content .owl-carousel .owl-dots .owl-dot.active span,
 #cybersecurity_enthusiasts_slide .owl-dots .owl-dot.active span {
   background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
-  /* width: 30px;
-  height: 30px;
-  border: none; */
+}
+
+.timerBottomStickyBar {
+  width: 100%;
+  height: 97px;
+  background: linear-gradient(180deg, #1C6F9D 0%, #000000 100%);
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+}
+
+.timerBottomStickyBar .custom_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.timerBottomStickyBar p {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FAFAFA;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.58);
+  width: 417px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -183,27 +196,6 @@ button {
 
   .lg-none {
     display: block !important;
-  }
-
-  #certification-carousel .owl-dots .owl-dot span,
-  .weekly_content .owl-carousel .owl-dots .owl-dot span,
-  #cybersecurity_enthusiasts_slide .owl-dots .owl-dot span {
-    width: 10px;
-    height: 10px;
-    margin: 2.5px;
-  }
-
-  #certification-carousel .owl-dots .owl-dot.active span,
-  .weekly_content .owl-carousel .owl-dots .owl-dot.active span,
-  #cybersecurity_enthusiasts_slide .owl-dots .owl-dot.active span {
-    width: 16px;
-    height: 16px;
-  }
-
-  #certification-carousel .owl-dots .owl-dot:hover span,
-  #cybersecurity_enthusiasts_slide .owl-dots .owl-dot:hover span {
-    width: 16px;
-    height: 16px;
   }
 
   .pt-96 {

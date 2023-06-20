@@ -73,12 +73,7 @@
         <div class="timeArea">
           <div class="t_custom_container">
             <div class="c_title"><span>Spot Left</span><span>Time Left</span></div>
-            <div class="timer">
-              <div>
-                <span class="num"><span>50</span></span>
-              </div>
-              <div id="countdown">
-              </div>
+            <div id="countdown" class="timer">
             </div>
             <div class="t_tag">
               <span>Join our exclusive demo class !<br />DON’T MISS OUT</span>
@@ -1480,6 +1475,14 @@
       <p>Copyright © 2023 Techforing Ltd.</p>
     </div>
   </section>
+  <div class="timerBottomStickyBar">
+    <div class="custom_container">
+      <div id="counterBottom"></div>
+      <p>Take the front-row seat and experience
+        what sets us apart from the rest</p>
+      <button class="ctaBtn"><span>Enroll Now</span></button>
+    </div>
+  </div>
   <script>
     function includeHTML(url, elementId) {
       fetch(url)
@@ -1493,6 +1496,7 @@
 
     // Include file1.html
     includeHTML('./timer.html', 'countdown');
+    includeHTML('./timer.html', 'counterBottom');
   </script>
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
