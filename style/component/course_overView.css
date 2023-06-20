@@ -185,6 +185,10 @@
     display: none !important;
   }
 
+  .course_overView .weeks ul {
+    margin-bottom: 12px;
+  }
+
   .course_overView .weeks {
     overflow-x: scroll;
     margin: 0 10px;
@@ -200,7 +204,7 @@
   }
 
   .course_overView .weeks li {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     margin: 4px;
     width: fit-content;
@@ -220,7 +224,7 @@
   }
 
   .course_overView .content {
-    padding: 10px;
+    padding: 14px 10px;
   }
 
   .course_overView .custom_container {
@@ -236,12 +240,14 @@
   .course_overView .texts h3 {
     font-size: 20px;
     line-height: 27px;
+    text-align: center;
   }
 
   .course_overView .texts p {
     font-size: 16px;
     line-height: 23px;
-    margin: 8px 0;
+    margin: 0 0 16px 0;
+    text-align: center;
   }
 
   .course_overView .offering.lg-none {
@@ -293,8 +299,8 @@
 
   .course_overView .weeks::-webkit-scrollbar-thumb {
     border-radius: 12px;
-    background: linear-gradient(#fff, #fff) padding-box,
-      linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box;
+    background: linear-gradient(#ffffff00, #ffffff00) padding-box,
+      linear-gradient(-90deg, #1C6F9D 0%, #000000 100%) border-box;
     ;
     border: 1px solid transparent;
   }

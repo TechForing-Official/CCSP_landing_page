@@ -358,8 +358,7 @@
   }
 
   #instructors-carousel .item .content::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
-    background-color: #F5F5F5;
+    background-color: #CACFD3;
     border-radius: 12px;
   }
 
@@ -370,7 +369,7 @@
 
   #instructors-carousel .item .content::-webkit-scrollbar-thumb {
     border-radius: 12px;
-    background: linear-gradient(#fff, #fff) padding-box,
+    background: linear-gradient(#CACFD3, #CACFD3) padding-box,
       linear-gradient(180deg, #000000 0%, #1C6F9D 100%) border-box;
     ;
     border: 2px solid transparent;
