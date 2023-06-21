@@ -47,12 +47,12 @@
 }
 
 #instructors-carousel .right h5 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: -0.0218em;
   color: #FAFAFA;
-  margin: 4px 0;
+  margin: 10px 0;
 }
 
 #instructors-carousel .c_name {
@@ -122,7 +122,7 @@
 }
 
 #instructors-carousel .info_ span {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: #FAFAFA;
@@ -161,7 +161,7 @@
 }
 
 #instructors-carousel .info_ li:not(:last-child) {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 #instructors-carousel .item .content {

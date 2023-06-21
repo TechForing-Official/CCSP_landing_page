@@ -152,7 +152,9 @@ button {
 .timerBottomStickyBar {
   width: 100%;
   height: 85px;
-  background: linear-gradient(180deg, #1C6F9D 0%, #000000 100%);
+  background: linear-gradient(90.51deg, rgba(0, 0, 0, 0.85) 37.59%, rgba(28, 111, 157, 0.75) 50.69%);
+  box-shadow: 0px -1.48809px 8.92857px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4.46428px);
   position: fixed;
   bottom: -100%;
   z-index: 999;
@@ -319,6 +321,10 @@ button {
     line-height: 25px;
   }
 
+  .timerBottomStickyBar {
+    height: 60px;
+  }
+
   .timerBottomStickyBar .w-\[60px\] {
     width: 30px !important;
   }
@@ -350,16 +356,13 @@ button {
   }
 
   .timerBottomStickyBar p {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    width: 50%;
+    display: none;
   }
 
   .timerBottomStickyBar .custom_container {
     column-gap: 8px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .timerBottomStickyBar .ctaBtn {

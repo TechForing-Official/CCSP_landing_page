@@ -150,10 +150,15 @@
   .footer .address p {
     font-size: 12px;
     line-height: 18px;
+    text-align: center;
   }
 
   .footer .certifications,
   .footer .address {
     margin-top: 0;
+  }
+
+  .footer .footer_bottom {
+    margin-bottom: 60px;
   }
 }
