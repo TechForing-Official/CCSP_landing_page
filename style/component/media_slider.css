@@ -66,4 +66,8 @@
   .mediaSlide .title::after {
     display: none;
   }
+
+  .mediaSlide .item svg {
+    width: 100%;
+  }
 }
