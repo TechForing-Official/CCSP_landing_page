@@ -63,7 +63,7 @@
 }
 
 .cybersecurity_enthusiasts .right p span.active {
-  background: linear-gradient(180deg, #4FC7ED 4.17%, #77DDFF 18.75%, #5FD4FF 51.04%, #62CEFF 73.96%, #52C1FF 100%);
+  background: linear-gradient(180deg, #86FF4E 0%, #55BD25 74.27%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -167,7 +167,7 @@
 
   .cybersecurity_enthusiasts .arrowI {
     width: fit-content;
-    bottom: 58px;
+    bottom: 68px;
     gap: 26px;
   }
 
