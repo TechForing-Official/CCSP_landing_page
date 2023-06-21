@@ -331,6 +331,17 @@
       <p class="subtitle">Learn everything you need to master the fundamentals of cybersecurity through detailed classes
         and hands-on lab components and prepare yourself for the certification exam.</p>
       <div class="contentArea">
+        <div class="letScroll lg-none">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+            <path
+              d="M3.4 81.7c-7.9 15.8-1.5 35 14.3 42.9L280.5 256 17.7 387.4C1.9 395.3-4.5 414.5 3.4 430.3s27.1 22.2 42.9 14.3l320-160c10.8-5.4 17.7-16.5 17.7-28.6s-6.8-23.2-17.7-28.6l-320-160c-15.8-7.9-35-1.5-42.9 14.3z" />
+          </svg> -->
+          <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12.7071 14.7071C12.3166 15.0976 11.6834 15.0976 11.2929 14.7071L6.29289 9.70711C5.90237 9.31658 5.90237 8.68342 6.29289 8.29289C6.68342 7.90237 7.31658 7.90237 7.70711 8.29289L12 12.5858L16.2929 8.29289C16.6834 7.90237 17.3166 7.90237 17.7071 8.29289C18.0976 8.68342 18.0976 9.31658 17.7071 9.70711L12.7071 14.7071Z"
+              fill="#000000" />
+          </svg>
+        </div>
         <div class="weeks">
           <ul>
             <li class="active">Week 1</li>
@@ -1722,6 +1733,8 @@
       // cybersecurity_enthusiasts js END
 
       // course_overView js START
+      const course_overView = $('.course_overView');
+      const letScroll = $('.course_overView .letScroll');
       let activeIndex = 0;
       $('.course_overView .weeks li').click(function () {
         //auto scroll to left
@@ -1736,7 +1749,12 @@
             activeIndex = $(this).index();
           }
         }
-
+        //trigger arrow
+        if (activeIndex >= 3) {
+          course_overView.find('.letScroll').css('transform', 'rotate(90deg)');
+        } else {
+          course_overView.find('.letScroll').css('transform', 'rotate(-90deg)');
+        }
         //toggle active class
         $(this).addClass('active');
         $('.course_overView .weeks li').not($(this)).removeClass('active');
@@ -1757,14 +1775,24 @@
           });
         }
         //change text with fade effect
-        var allDiv = $('.course_overView .content .texts');
-        var contentDiv = $(`.course_overView .content .texts0${$(this).index() + 1}`);
+        var allDiv = course_overView.find('.content .texts');
+        var contentDiv = course_overView.find(`.content .texts0${$(this).index() + 1}`);
         allDiv.fadeIn(400, function () {
           allDiv.not(contentDiv).css('display', 'none');
         });
         contentDiv.css('display', 'block');
         //other display none
       });
+      course_overView.find('.letScroll').click(
+        function () {
+          // scroll to right/left full
+          if (activeIndex >= 3) {
+            course_overView.find('.weeks').animate({ scrollLeft: 0 }, "slow");
+          } else {
+            course_overView.find('.weeks').animate({ scrollLeft: course_overView.find('.weeks').width() + 20 }, "slow");
+          }
+        }
+      );
       [0, 1, 2, 3, 4, 5, 6, 7, 8].forEach(i => {
         $(`#course_overView-carousel${i}`).owlCarousel({
           // items: 5,

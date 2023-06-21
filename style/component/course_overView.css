@@ -191,6 +191,32 @@
 
   .course_overView .weeks {
     overflow-x: scroll;
+    width: 88%;
+    margin-right: auto;
+    position: relative;
+  }
+
+  .course_overView .contentArea {
+    position: relative;
+  }
+
+  .course_overView .letScroll {
+    position: absolute;
+    top: -3px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-90deg);
+  }
+
+  .course_overView .letScroll svg path {
+    fill: #a3a3a3;
   }
 
   .course_overView .subtitle {
