@@ -177,6 +177,32 @@ button {
   text-align: center;
 }
 
+.timer .num {
+  padding: 12px 17px;
+  gap: 10px;
+  width: 60px;
+  height: 60px;
+  background: #FAFAFA;
+  border-radius: 5px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.timer .num span {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.0218em;
+  background: linear-gradient(180deg, #182F59 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 @media only screen and (max-width: 768px) {
   .title {
     font-weight: 600;
@@ -254,5 +280,17 @@ button {
     font-size: 14px;
     line-height: 24px;
     padding: 9px 42px;
+  }
+
+  .timer .num {
+    width: 40px;
+    height: 40px;
+    padding: 8px 7px;
+  }
+
+  .timer .num span {
+    font-weight: 400;
+    font-size: 25.2px;
+    line-height: 25px;
   }
 }

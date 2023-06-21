@@ -99,158 +99,192 @@
   }
 </style>
 <!--Time-->
-<div>
-  <span class="num"><span>50</span></span>
-</div>
-<div class="flex justify-center items-center gap-[17px]">
-  <!--HOURS-->
-  <div class="flex flex-col-reverse justify-center items-center">
-    <h1 class="mt-[5px] text-white font-semibold text-sm">
-      DAYS
-    </h1>
-    <div class="flex justify-center items-center">
-      <div class="flex flex-col rounded-md bg-black" data-days>
-        <!--Top-->
-        <span class="relative w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
-                         rounded-tl-md rounded-tr-md flex justify-center items-end text-base">
+<div class="timer">
+  <div class="flex justify-center items-center gap-[17px]">
+    <!--SPOT-->
+    <div class="flex flex-col-reverse justify-center items-center">
+      <h1 class="mt-[5px] text-white font-semibold text-sm">
+        SPOT
+      </h1>
+      <div class="flex justify-center items-center">
+        <div class="flex flex-col rounded-md bg-black" data-spot>
+          <!--Top-->
+          <span class="relative w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
+                           rounded-tl-md rounded-tr-md flex justify-center items-end text-base">
 
-          <span class="translate-y-[20px] number_c" data-card-top>
-            09
-          </span>
-          <!--FlipTop-->
-          <span class="absolute w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
-                             rounded-tl-md rounded-tr-md flex justify-center items-end text-base " data-flip-top>
-            <span class="translate-y-[20px] number_c" data-flip-top-num data-card-top>
-              00
+            <span class="translate-y-[20px] number_c" data-card-top>
+              09
+            </span>
+            <!--FlipTop-->
+            <span class="absolute w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
+                               rounded-tl-md rounded-tr-md flex justify-center items-end text-base " data-flip-top>
+              <span class="translate-y-[20px] number_c" data-flip-top-num data-card-top>
+                00
+              </span>
             </span>
           </span>
-        </span>
-        <!--Bottom-->
-        <span class="relative w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
-                        rounded-bl-md rounded-br-md flex justify-center items-end text-base ">
-          <span class="-translate-y-[11px] number_c" data-card-bot>00</span>
-          <!--FlipBottom-->
-          <span class="absolute w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
-                            rounded-bl-md rounded-br-md flex justify-center items-end text-base " data-flip-bot>
-            <span class="-translate-y-[11px] number_c" data-flip-bot-num>00</span>
+          <!--Bottom-->
+          <span class="relative w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
+                          rounded-bl-md rounded-br-md flex justify-center items-end text-base ">
+            <span class="-translate-y-[11px] number_c" data-card-bot>00</span>
+            <!--FlipBottom-->
+            <span class="absolute w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
+                              rounded-bl-md rounded-br-md flex justify-center items-end text-base " data-flip-bot>
+              <span class="-translate-y-[11px] number_c" data-flip-bot-num>00</span>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
-  </div>
-  <!--HOURS-->
-  <div class="flex flex-col-reverse justify-center items-center">
-    <h1 class="mt-[5px] text-white font-semibold text-sm">
-      HOURS
-    </h1>
-    <div class="flex justify-center items-center">
-      <div class="flex flex-col rounded-md bg-black" data-hours>
-        <!--Top-->
-        <span class="relative w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
-                         rounded-tl-md rounded-tr-md flex justify-center items-end text-base">
+    <!--HOURS-->
+    <div class="flex flex-col-reverse justify-center items-center">
+      <h1 class="mt-[5px] text-white font-semibold text-sm">
+        DAYS
+      </h1>
+      <div class="flex justify-center items-center">
+        <div class="flex flex-col rounded-md bg-black" data-days>
+          <!--Top-->
+          <span class="relative w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
+                           rounded-tl-md rounded-tr-md flex justify-center items-end text-base">
 
-          <span class="translate-y-[20px] number_c" data-card-top>
-            00
-          </span>
-          <!--FlipTop-->
-          <span class="absolute w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
-                             rounded-tl-md rounded-tr-md flex justify-center items-end text-base " data-flip-top>
-
-            <span class="translate-y-[20px] number_c" data-flip-top-num data-card-top>
-              00
+            <span class="translate-y-[20px] number_c" data-card-top>
+              09
+            </span>
+            <!--FlipTop-->
+            <span class="absolute w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
+                               rounded-tl-md rounded-tr-md flex justify-center items-end text-base " data-flip-top>
+              <span class="translate-y-[20px] number_c" data-flip-top-num data-card-top>
+                00
+              </span>
             </span>
           </span>
-        </span>
-        <!--Bottom-->
-        <span class="relative w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
-                        rounded-bl-md rounded-br-md flex justify-center items-end text-base ">
-          <span class="-translate-y-[11px] number_c" data-card-bot>00</span>
-          <!--FlipBottom-->
-          <span class="absolute w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
-                            rounded-bl-md rounded-br-md flex justify-center items-end text-base " data-flip-bot>
-
-            <span class="-translate-y-[11px] number_c" data-flip-bot-num>00</span>
+          <!--Bottom-->
+          <span class="relative w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
+                          rounded-bl-md rounded-br-md flex justify-center items-end text-base ">
+            <span class="-translate-y-[11px] number_c" data-card-bot>00</span>
+            <!--FlipBottom-->
+            <span class="absolute w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
+                              rounded-bl-md rounded-br-md flex justify-center items-end text-base " data-flip-bot>
+              <span class="-translate-y-[11px] number_c" data-flip-bot-num>00</span>
+            </span>
           </span>
-        </span>
+        </div>
       </div>
     </div>
-  </div>
-  <!--MINUTES-->
-  <div class="flex flex-col-reverse justify-center items-center">
-    <h1 class="mt-[5px] text-white font-semibold text-sm">
-      MINUTES
-    </h1>
-    <div class="flex justify-center items-center">
-      <div class="flex flex-col rounded-md bg-black" data-minutes>
-        <!--Top-->
-        <span class="relative w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
-                         rounded-tl-md rounded-tr-md flex justify-center items-end text-base">
+    <!--HOURS-->
+    <div class="flex flex-col-reverse justify-center items-center">
+      <h1 class="mt-[5px] text-white font-semibold text-sm">
+        HOURS
+      </h1>
+      <div class="flex justify-center items-center">
+        <div class="flex flex-col rounded-md bg-black" data-hours>
+          <!--Top-->
+          <span class="relative w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
+                           rounded-tl-md rounded-tr-md flex justify-center items-end text-base">
 
-          <span class="translate-y-[20px] number_c" data-card-top>
-            00
-          </span>
-          <!--FlipTop-->
-          <span class="absolute w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
-                             rounded-tl-md rounded-tr-md flex justify-center items-end text-base " data-flip-top>
-
-            <span class="translate-y-[20px] number_c" data-flip-top-num data-card-top>
+            <span class="translate-y-[20px] number_c" data-card-top>
               00
             </span>
-          </span>
-        </span>
-        <!--Bottom-->
-        <span class="relative w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
-                        rounded-bl-md rounded-br-md flex justify-center items-end text-base ">
-          <span class="-translate-y-[11px] number_c" data-card-bot>00</span>
-          <!--FlipBottom-->
-          <span class="absolute w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
-                            rounded-bl-md rounded-br-md flex justify-center items-end text-base " data-flip-bot>
+            <!--FlipTop-->
+            <span class="absolute w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
+                               rounded-tl-md rounded-tr-md flex justify-center items-end text-base " data-flip-top>
 
-            <span class="-translate-y-[11px] number_c" data-flip-bot-num>00</span>
+              <span class="translate-y-[20px] number_c" data-flip-top-num data-card-top>
+                00
+              </span>
+            </span>
           </span>
-        </span>
+          <!--Bottom-->
+          <span class="relative w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
+                          rounded-bl-md rounded-br-md flex justify-center items-end text-base ">
+            <span class="-translate-y-[11px] number_c" data-card-bot>00</span>
+            <!--FlipBottom-->
+            <span class="absolute w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
+                              rounded-bl-md rounded-br-md flex justify-center items-end text-base " data-flip-bot>
+
+              <span class="-translate-y-[11px] number_c" data-flip-bot-num>00</span>
+            </span>
+          </span>
+        </div>
       </div>
     </div>
-  </div>
-  <!--Seconds-->
-  <div class="flex flex-col-reverse justify-center items-center">
-    <h1 class="mt-[5px] text-white font-semibold text-sm">
-      SECONDS
-    </h1>
-    <div class="flex justify-center items-center">
-      <div class="flex flex-col rounded-md bg-black" data-seconds>
-        <!--Top-->
-        <span class="relative w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
-                         rounded-tl-md rounded-tr-md flex justify-center items-end text-base">
+    <!--MINUTES-->
+    <div class="flex flex-col-reverse justify-center items-center">
+      <h1 class="mt-[5px] text-white font-semibold text-sm">
+        MINUTES
+      </h1>
+      <div class="flex justify-center items-center">
+        <div class="flex flex-col rounded-md bg-black" data-minutes>
+          <!--Top-->
+          <span class="relative w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
+                           rounded-tl-md rounded-tr-md flex justify-center items-end text-base">
 
-          <span class="translate-y-[20px] number_c" data-card-top>
-            00
-          </span>
-          <!--FlipTop-->
-          <span class="absolute w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
-                             rounded-tl-md rounded-tr-md flex justify-center items-end text-base ">
-            <div class="absolute w-full h-full flex justify-start items-end" data-flip-top>
-              <div class="w-[10px] h-[8px] rounded-tr-full bg-veryDarkBlue"></div>
-            </div>
-            <div class="absolute w-full h-full flex justify-end items-end">
-              <div class="w-[10px] h-[8px] rounded-tl-full bg-veryDarkBlue"></div>
-            </div>
-            <span class="translate-y-[20px] number_c" data-flip-top-num data-card-top>
+            <span class="translate-y-[20px] number_c" data-card-top>
               00
             </span>
-          </span>
-        </span>
-        <!--Bottom-->
-        <span class="relative w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
-                        rounded-bl-md rounded-br-md flex justify-center items-end text-base ">
-          <span class="-translate-y-[11px] number_c" data-card-bot>00</span>
-          <!--FlipBottom-->
-          <span class="absolute w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
-                            rounded-bl-md rounded-br-md flex justify-center items-end text-base " data-flip-bot>
+            <!--FlipTop-->
+            <span class="absolute w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
+                               rounded-tl-md rounded-tr-md flex justify-center items-end text-base " data-flip-top>
 
-            <span class="-translate-y-[11px] number_c" data-flip-bot-num>00</span>
+              <span class="translate-y-[20px] number_c" data-flip-top-num data-card-top>
+                00
+              </span>
+            </span>
           </span>
-        </span>
+          <!--Bottom-->
+          <span class="relative w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
+                          rounded-bl-md rounded-br-md flex justify-center items-end text-base ">
+            <span class="-translate-y-[11px] number_c" data-card-bot>00</span>
+            <!--FlipBottom-->
+            <span class="absolute w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
+                              rounded-bl-md rounded-br-md flex justify-center items-end text-base " data-flip-bot>
+
+              <span class="-translate-y-[11px] number_c" data-flip-bot-num>00</span>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!--Seconds-->
+    <div class="flex flex-col-reverse justify-center items-center">
+      <h1 class="mt-[5px] text-white font-semibold text-sm">
+        SECONDS
+      </h1>
+      <div class="flex justify-center items-center">
+        <div class="flex flex-col rounded-md bg-black" data-seconds>
+          <!--Top-->
+          <span class="relative w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
+                           rounded-tl-md rounded-tr-md flex justify-center items-end text-base">
+
+            <span class="translate-y-[20px] number_c" data-card-top>
+              00
+            </span>
+            <!--FlipTop-->
+            <span class="absolute w-[60px] h-[30px] bg-slightlyDarkerDesBlue overflow-hidden
+                               rounded-tl-md rounded-tr-md flex justify-center items-end text-base ">
+              <div class="absolute w-full h-full flex justify-start items-end" data-flip-top>
+                <div class="w-[10px] h-[8px] rounded-tr-full bg-veryDarkBlue"></div>
+              </div>
+              <div class="absolute w-full h-full flex justify-end items-end">
+                <div class="w-[10px] h-[8px] rounded-tl-full bg-veryDarkBlue"></div>
+              </div>
+              <span class="translate-y-[20px] number_c" data-flip-top-num data-card-top>
+                00
+              </span>
+            </span>
+          </span>
+          <!--Bottom-->
+          <span class="relative w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
+                          rounded-bl-md rounded-br-md flex justify-center items-end text-base ">
+            <span class="-translate-y-[11px] number_c" data-card-bot>00</span>
+            <!--FlipBottom-->
+            <span class="absolute w-[60px] h-[30px] bg-darkDesaturatedBlue overflow-hidden 
+                              rounded-bl-md rounded-br-md flex justify-center items-end text-base " data-flip-bot>
+
+              <span class="-translate-y-[11px] number_c" data-flip-bot-num>00</span>
+            </span>
+          </span>
+        </div>
       </div>
     </div>
   </div>

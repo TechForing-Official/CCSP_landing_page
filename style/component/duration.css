@@ -30,40 +30,15 @@
   transform: rotate(180deg);
 }
 
-
-
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInFromRight {
-  0% {
-    transform: translateX(100%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
 .duration .content_one {
   height: 100%;
   width: fit-content;
-  animation: slideInFromLeft 1s ease-in-out;
 }
 
 .duration .content_two {
   height: 100%;
   width: fit-content;
   margin-left: auto;
-  /* animation on scroll */
-  animation: slideInFromRight 1s ease-in-out;
 }
 
 .duration .content_two .content {
