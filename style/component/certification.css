@@ -1,23 +1,11 @@
 .certification {
-  padding: 16px 0 96px 0;
+  padding: 96px 0;
 }
 
 .certification .title {
   position: relative;
   width: fit-content;
   margin: auto;
-}
-
-.certification .title::after {
-  content: '';
-  display: block;
-  width: 80px;
-  height: 5px;
-  background: linear-gradient(180deg, #182F59 0%, #000000 100%);
-  position: absolute;
-  top: -10px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .certification .points {

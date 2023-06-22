@@ -4,7 +4,11 @@
 }
 
 .instructorsSlider .title {
-  color: #FAFAFA;
+  background: linear-gradient(180deg, #FAFAFA 0%, #FAFAFA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   padding-top: 35px;
 }
 
@@ -56,8 +60,6 @@
 }
 
 #instructors-carousel .c_name {
-  font-family: 'Roboto Slab';
-  font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 26px;

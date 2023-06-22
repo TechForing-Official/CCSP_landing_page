@@ -29,7 +29,6 @@
   margin: 10px;
   width: 78px;
   white-space: nowrap;
-  font-family: 'Roboto Slab';
   font-weight: 600;
   font-size: 21.5px;
   line-height: 26px;
@@ -102,7 +101,6 @@
 }
 
 .course_overView .texts h3 {
-  font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -147,7 +145,6 @@
 }
 
 .course_overView .offering .num {
-  font-family: 'Roboto Slab';
   font-weight: 600;
   font-size: 48px;
   line-height: 57px;

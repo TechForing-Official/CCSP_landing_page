@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700&&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700&&family=Roboto+Slab:wght@300;400;500;600;700&display=swap");
 
-/* universal css */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -16,8 +15,8 @@ a {
 }
 
 body {
-  font-family: 'Roboto';
-  background-color: #FFFFFF;
+  font-family: Roboto;
+  background-color: rgb(255, 255, 255);
   font-style: normal;
 }
 
@@ -27,27 +26,30 @@ button {
 
 .custom_container {
   width: 1140px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .title {
-  font-family: 'Roboto Slab';
   font-weight: 600;
   font-size: 48px;
   line-height: 57px;
   text-align: center;
   letter-spacing: -0.0144em;
-  color: #000000;
+  background: linear-gradient(180deg, #444444 0%, #1C6F9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .subTitle {
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   margin-bottom: 25px;
-  color: #000000;
+  color: rgb(0, 0, 0);
 }
 
 .py-96 {
@@ -66,8 +68,8 @@ button {
 .cta {
   width: 100%;
   min-height: 138px;
-  background: url(../../img/ctaBG.png) no-repeat center center / cover;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: url("../../img/ctaBG.png") center center / cover no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -87,7 +89,7 @@ button {
   font-size: 22px;
   line-height: 26px;
   text-align: justify;
-  color: #FAFAFA;
+  color: rgb(250, 250, 250);
 }
 
 .cta_second .content {
@@ -95,43 +97,42 @@ button {
   align-items: center;
   gap: 40px;
   width: 100%;
-
 }
 
 .ctaArea .cta.cta_second {
-  padding: 64px 0;
-  background: url(../img/ctaSecondBG.png) no-repeat center center / cover;
-  border-radius: 0;
+  padding: 64px 0px;
+  background: url("../img/ctaSecondBG.png") center center / cover no-repeat;
+  border-radius: 0px;
   margin-top: 96px;
 }
 
 .cta_second .content p {
-  font-family: 'Big Shoulders Display';
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 73px;
-  text-shadow: 0px 0px 12px #FFFFFF;
+  text-align: center;
+  text-shadow: rgb(255, 255, 255) 0px 0px 12px;
 }
 
 .ctaBtn {
-  font-family: 'Roboto';
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   display: flex;
   align-items: center;
   letter-spacing: -0.0218em;
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
   border-radius: 8px;
   padding: 13px 48px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out 0s;
   border: none;
-  background-color: #5BBC2E;
+  background-color: rgb(91, 188, 46);
 }
 
 .ctaBtn:hover {
-  box-shadow: 0px 0px 20px #5BBC2E;
+  box-shadow: rgb(91, 188, 46) 0px 0px 20px;
 }
 
 .lg-none {
@@ -146,19 +147,19 @@ button {
 #certification-carousel .owl-dots .owl-dot.active span,
 .weekly_content .owl-carousel .owl-dots .owl-dot.active span,
 #cybersecurity_enthusiasts_slide .owl-dots .owl-dot.active span {
-  background: linear-gradient(180deg, #000000 0%, #1C6F9D 100%);
+  background: linear-gradient(rgb(0, 0, 0) 0%, rgb(28, 111, 157) 100%);
 }
 
 .timerBottomStickyBar {
   width: 100%;
   height: 85px;
-  background: linear-gradient(90.51deg, rgba(0, 0, 0, 0.85) 37.59%, rgba(28, 111, 157, 0.75) 50.69%);
-  box-shadow: 0px -1.48809px 8.92857px rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(4.46428px);
+  background: linear-gradient(90.51deg, rgb(0 0 0) 37.59%, rgb(28 111 157) 50.69%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px -1.48809px 8.92857px;
+  /* backdrop-filter: blur(4.46428px); */
   position: fixed;
   bottom: -100%;
   z-index: 999;
-  transition: all 0.5s cubic-bezier(0.48, -0.19, 0, 0.98);
+  transition: all 0.5s cubic-bezier(0.48, -0.19, 0, 0.98) 0s;
 }
 
 .timerBottomStickyBar .custom_container {
@@ -169,13 +170,12 @@ button {
 }
 
 .timerBottomStickyBar p {
-  font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 26px;
-  color: #FAFAFA;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.58);
+  color: rgb(250, 250, 250);
+  text-shadow: rgba(0, 0, 0, 0.58) 4px 4px 4px;
   width: 417px;
   text-align: center;
 }
@@ -185,7 +185,7 @@ button {
   gap: 10px;
   width: 60px;
   height: 60px;
-  background: #FAFAFA;
+  background: rgb(250, 250, 250);
   border-radius: 5px;
   display: flex;
   align-self: center;
@@ -193,17 +193,13 @@ button {
 }
 
 .timer .num span {
-  font-family: 'Big Shoulders Display';
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   letter-spacing: -0.0218em;
-  background: linear-gradient(180deg, #182F59 0%, #000000 100%);
-  -webkit-background-clip: text;
+  background: linear-gradient(rgb(24, 47, 89) 0%, rgb(0, 0, 0) 100%) text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 }
 
 .timer .text-sm {
@@ -239,7 +235,7 @@ button {
 
   .custom_container {
     width: 100%;
-    padding: 0 16px;
+    padding: 0px 16px;
     overflow: hidden;
   }
 
@@ -261,15 +257,15 @@ button {
 
   .cta .content {
     flex-direction: column;
-    gap: 0;
+    gap: 0px;
   }
 
   .ctaArea .custom_container {
-    padding: 0;
+    padding: 0px;
   }
 
   .ctaArea .cta {
-    border-radius: 0;
+    border-radius: 0px;
     min-height: 158px;
   }
 
@@ -281,19 +277,19 @@ button {
   }
 
   .ctaArea .cta {
-    background: url(../../img/ctaBG2.png) no-repeat center center / cover;
+    background: url("../../img/ctaBG2.png") center center / cover no-repeat;
     margin-top: 32px;
   }
 
   .ctaArea .cta.cta_second {
-    padding: 20px 0;
+    padding: 20px 0px;
     margin-top: 32px;
   }
 
   .ctaArea .cta.cta_second .content p {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 36px;
-    width: 70%;
+    width: 100%;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -352,8 +348,8 @@ button {
   }
 
   .timerBottomStickyBar .text-sm {
-    font-size: 6px !important;
     line-height: 8px;
+    font-size: 6px !important;
   }
 
   .timerBottomStickyBar p {

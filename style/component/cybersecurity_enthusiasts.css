@@ -47,19 +47,30 @@
 }
 
 .cybersecurity_enthusiasts .right p {
-  font-family: 'Big Shoulders Display';
+
   font-style: normal;
+
   font-weight: 600;
-  font-size: 70px;
+
+  font-size: 64px;
+
   line-height: 93px;
+
   /* background: linear-gradient(180deg, #4FC7ED 4.17%, #77DDFF 18.75%, #5FD4FF 51.04%, #62CEFF 73.96%, #52C1FF 100%); */
+
   background: linear-gradient(180deg, #182F59 0%, #000000 100%);
+
   letter-spacing: -0.0144em;
+
   -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent;
+
   background-clip: text;
+
   text-fill-color: transparent;
-  letter-spacing: 2px;
+
+  letter-spacing: 0px;
 }
 
 .cybersecurity_enthusiasts .right p span.active {
@@ -73,7 +84,8 @@
 .cybersecurity_enthusiasts .custom_container {
   display: flex;
   align-items: center;
-  gap: 90px;
+  gap: 70px;
+  justify-content: space-between;
 }
 
 .cybersecurity_enthusiasts .slide {
