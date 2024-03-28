@@ -3,7 +3,7 @@
 This repository contains the source code for a single-page landing page built using HTML, CSS, and JavaScript. The landing page is designed to showcase a particular product, service, or concept.
 
 ## Technology
-- **HTML:**
+- **HTML**
 - **CSS, tailwindcss**
 - **JavaScript**
 
