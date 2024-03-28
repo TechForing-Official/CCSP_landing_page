@@ -36,4 +36,5 @@ To use or modify this landing page for your own project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/landing-page.git
+   git clone https://github.com/TechForing-Official/CCSP_landing_page.git
+2. Run index.html file from any editor
